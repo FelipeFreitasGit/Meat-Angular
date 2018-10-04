@@ -7,7 +7,7 @@ import { RadioOption } from './radio.option.model';
 })      
 export class RadioComponent implements OnInit {
 
-  @Input() Options: RadioOption[]
+  @Input() options: RadioOption[]
 
   value: any
 
