@@ -370,5 +370,81 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "address": "Rua Francisco Lameu",
+      "number": "77",
+      "optionalAddress": "Casa",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "capp"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "address": "Rua Alameda",
+      "number": "54",
+      "optionalAddress": "Casa",
+      "paymentOption": "REF",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "starb"
+        },
+        {
+          "quantity": 1,
+          "menuId": "espreso"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "address": "Rua Lucas",
+      "number": "88",
+      "optionalAddress": "",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "sunday"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Felipe",
+      "email": "felipe@gmail.com",
+      "emailConfirmation": "felipe@gmail.com",
+      "address": "rua Lameu",
+      "number": "77",
+      "optionalAddress": "casa",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "espreso"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "Felipe",
+      "email": "felipe@gmail.com",
+      "emailConfirmation": "felipe@gmail.com",
+      "address": "rua lameu",
+      "number": "77",
+      "optionalAddress": "casa",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "capp"
+        }
+      ],
+      "id": 5
+    }
+  ]
 }
